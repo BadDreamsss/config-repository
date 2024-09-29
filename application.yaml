@@ -7,7 +7,7 @@ spring:
     password: rootroot
     driver-class-name: org.h2.Driver
 server:
-  port: 0
+  port: 8788
 eureka:
   client:
     service-url:
