@@ -4,6 +4,15 @@ spring:
     username: root
     password: rootroot
     driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none
+  h2:
+    console:
+      enabled: true
+config:
+  name: remote
 eureka:
   client:
     service-url:
